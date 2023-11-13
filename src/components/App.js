@@ -6,12 +6,12 @@ import Child from "./child";
 
 const App = () => {
   let[state,setState]=useState(true);
-  let[data,setData]=useState({});
+
 
   return (
     <div>
         {/* Do not remove the maiqn div */}
-      {(state)?<Parent setChildData={setData} setState={setState}/>:<Child data={data}/>}
+      {(state)?<Parent setState={setState}/>:<Child/>}
 
 
     </div>
