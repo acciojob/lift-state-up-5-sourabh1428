@@ -2,7 +2,7 @@ import { useState } from "react";
 import React from 'react'
 
 export default function Parent({setState,setChildData}) {
-    let[data,setData]=useState({});
+    let[data,setData]=useState({username:'',password:''});
     
 
     function handleClick(){
