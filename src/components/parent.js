@@ -17,6 +17,7 @@ export default function Parent({setState,setChildData}) {
 
   return (
     <form>
+      <p>Login </p>
         <label htmlFor="UserName"></label><input type="text" name='username' onChange={handleChange}/>
         <label htmlFor="Password"></label><input type="text" onChange={handleChange} name="password"  />
         <button onClick={handleClick}>Submit</button>
